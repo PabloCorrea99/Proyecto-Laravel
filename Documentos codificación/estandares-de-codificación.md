@@ -1,12 +1,9 @@
 # Guía estandares de codificación
-
----
 ## Descripción
 - Los archivos **DEBEN** usar solo las etiquetas `<?php` y `<?=`.
 - Los nombres de las clases **DEBEN** ser declarados en notación `StudlyCaps`.
 - Las constantes de clase **DEBEN** ser declaradas en mayúsculas con separadores de subrayado.
 - Los nombres de los métodos **DEBEN** ser declarados en notación `camelCase`.
----
 ## Archivos
 ### Etiquetas
 - El codigo en *PHP* solo **DEBE** usar etiquetas largas `<?php ?>` o etiquetas cortas `<?= ?>`; **NO DEBE** usar las otras variaciones de las etiquetas. 
@@ -21,8 +18,6 @@
 - Las constantes de *PHP* `true`, `false` y `null` **DEBEN** esatr en minúscula.
 ### Codificación de caracteres
 El código *PHP* **DEBE** usar sólo UTF-8 sin BOM.
-
----
 ## Nombres de clases 
 - Los nombres de las clases **DEBEN** ser declarados en notación `StudlyCaps`.
 - Cada clase debe estar en un archivo por si misma.
@@ -36,8 +31,6 @@ class Foo
 {
 }
 ~~~
----
-
 ## Constantes de clase y métodos.
 ### Extends and implements
 Las palabras clave `extends` y `implements` deben estar declaradas en la misma linea que el nombre de la clase.
@@ -59,9 +52,7 @@ class Foo
 ### Argumentos
 - En la lista de argumentos, **NO DEBE** haber un espacio antes de cada coma, y **DEBE** haber un espacio despues de cada coma.
 - Los argumentos del método con valores por defecto **DEBEN** ir al final de la lista de argumentos.
-
----
-### Estructuras de control
+## Estructuras de control
 Las reglas generales de estilo para las estructuras de control son las siguientes:
 - **DEBE** haber un espacio después de la palabra clave de la estructura de control.
 - **NO DEBE** haber un espacio después del paréntesis de apertura.
