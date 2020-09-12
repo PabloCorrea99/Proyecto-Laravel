@@ -56,7 +56,7 @@ class Foo
 Las reglas generales de estilo para las estructuras de control son las siguientes:
 - **DEBE** haber un espacio después de la palabra clave de la estructura de control.
 - **NO DEBE** haber un espacio después del paréntesis de apertura.
-- **NO DEBE** haber un esapcio antes del paréntesis de cierre.
+- **NO DEBE** haber un espacio antes del paréntesis de cierre.
 - **DEBE** haber un espacio entre el paréntesis de cierre y la abrazadera de apertura.
 - La estructura del cuerpo **DEBE** ser indentada solo una vez.
 #### `if`, `elseif`, `else`
