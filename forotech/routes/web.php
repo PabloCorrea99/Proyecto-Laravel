@@ -14,6 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'HomeController@index')->name("home.index");
+
 Route::get('/home', 'HomeController@home')->name("home.home");
 
 Route::get('/comment/show', 'CommentController@show')->name("comment.show");

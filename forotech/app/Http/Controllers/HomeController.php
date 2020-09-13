@@ -26,6 +26,6 @@ class HomeController extends Controller
     }
     public function home()
     {
-        return redirect('home.index');
+        return redirect()->action('HomeController@index');
     }
 }
