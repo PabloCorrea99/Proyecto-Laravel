@@ -43,7 +43,6 @@
     <div class="container d-flex justify-content-end">
       <div class="social-links">
         <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
         <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
         <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
       </div>
@@ -54,12 +53,13 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">Rapid</a></h1>
+      <h1 class="logo mr-auto"><a href="index.html">Foro Techsolver</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="main-nav d-none d-lg-block">
         <ul>
+
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
@@ -77,9 +77,8 @@
                 @csrf
               </form>
               @endguest
-            </ul>
-          </li>
-          <li><a href="#footer">Contact Us</a></li>
+
+          <li><a href="#footer">Contacto</a></li>
         </ul>
       </nav><!-- .main-nav-->
 
