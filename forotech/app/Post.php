@@ -6,8 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class Post extends Model
 {
-    //attributes id, comment, date
-    protected $fillable = ['post'];
+    
+    protected $fillable = ['title','body','image'];
 
     public function getId()
     {
