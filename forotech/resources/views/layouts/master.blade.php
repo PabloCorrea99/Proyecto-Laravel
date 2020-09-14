@@ -60,10 +60,9 @@
       <nav class="main-nav d-none d-lg-block">
         <ul>
 
-          <li class="active"><a href="index.html">Home</a></li>
-          <li><a href="#about">About Us</a></li>
-          <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li class="active"><a href="index.html">Inicio</a></li>
+          <li><a href="#about">Sobre Nosotros</a></li>
+          <li><a href="#services">Foro</a></li>
           <li><a href="#team">Team</a></li>
           <li class="drop-down"><a href="">Account</a>
             <ul>
@@ -77,7 +76,7 @@
                 @csrf
               </form>
               @endguest
-
+            </ul>
           <li><a href="#footer">Contacto</a></li>
         </ul>
       </nav><!-- .main-nav-->
@@ -124,23 +123,14 @@
               <div class="col-sm-6">
 
                 <div class="footer-info">
-                  <h3>Rapid</h3>
-                  <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus. Scelerisque felis imperdiet proin fermentum leo. Amet volutpat consequat mauris nunc congue.</p>
+                  <h3>Foro Techsolver</h3>
+                  <p>Esta página esta dirigida a todas las personas interesadas tanto en conocer, como en opinar sobre temas de tecnología (Programación, Videojuegos, Hardware ...). Te invitamos a que disfrutes bastante y respetes la comunidad.</p>
                 </div>
-
-                <div class="footer-newsletter">
-                  <h4>Our Newsletter</h4>
-                  <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna veniam enim veniam illum dolore legam minim quorum culpa amet magna export quem.</p>
-                  <form action="" method="post">
-                    <input type="email" name="email"><input type="submit" value="Subscribe">
-                  </form>
-                </div>
-
               </div>
 
               <div class="col-sm-6">
                 <div class="footer-links">
-                  <h4>Useful Links</h4>
+                  <h4>Links Utiles</h4>
                   <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About us</a></li>
@@ -151,13 +141,9 @@
                 </div>
 
                 <div class="footer-links">
-                  <h4>Contact Us</h4>
+                  <h4>Contactanos</h4>
                   <p>
-                    A108 Adam Street <br>
-                    New York, NY 535022<br>
-                    United States <br>
-                    <strong>Phone:</strong> +1 5589 55488 55<br>
-                    <strong>Email:</strong> info@example.com<br>
+                    <strong>Email:</strong> correa.pablo1999@gmail.com<br>
                   </p>
                 </div>
 

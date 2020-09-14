@@ -16,10 +16,10 @@
 
       <div class="col-lg-7 col-md-6">
         <div class="about-content" data-aos="fade-left" data-aos-delay="100">
-          <h2>About Us</h2>
-          <h3>Odio sed id eos et laboriosam consequatur eos earum soluta.</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <p>Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor nulla dolores neque. Aspernatur consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam. Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab alias.</p>
+          <h2>Sobre Nosotros</h2>
+          <h3>¿De donde sale?</h3>
+          <p>El Foro Techsolver es un foro hispanohablante enfocado totalmente a la tecnología (programación, videojuegos, hardware…), en donde las personas podrán compartir dudas, noticias, conocimiento u opinión, sobre todo lo relacionado a tecnología. </p>
+          <p>Con el foro se pretende aportar al crecimiento de la cultura tecnológica en toda Latinoamérica, puesto que se considera que aun es bastante pobre a comparación con el resto del mundo.</p>
           <ul>
             <li><i class="ion-android-checkmark-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
             <li><i class="ion-android-checkmark-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
@@ -37,8 +37,8 @@
   <div class="container" data-aos="fade-up">
 
     <header class="section-header">
-      <h3>Services</h3>
-      <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.</p>
+      <h3>Temas Que Puedes Encontrar</h3>
+      <p>En este foro puedes hablar de cualquier tema relacionado con tecnología, pero estos son los principales.</p>
     </header>
 
     <div class="row">
@@ -46,15 +46,15 @@
       <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
         <div class="box">
           <div class="icon" style="background: #fceef3;"><i class="ion-ios-analytics-outline" style="color: #ff689b;"></i></div>
-          <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-          <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+          <h4 class="title"><a href="">Videojuegos</a></h4>
+          <p class="description">Todo lo relacionado con esto que tanto nos gusta, ultimas noticias de lo que pasa día a día.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
         <div class="box">
           <div class="icon" style="background: #fff0da;"><i class="ion-ios-bookmarks-outline" style="color: #e98e06;"></i></div>
-          <h4 class="title"><a href="">Dolor Sitema</a></h4>
-          <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+          <h4 class="title"><a href="">Programación</a></h4>
+          <p class="description">Noticias sobre lo nuevo que va pasando en este mundo o también publicaciones para mostar código o resolver dudas.</p>
         </div>
       </div>
 
