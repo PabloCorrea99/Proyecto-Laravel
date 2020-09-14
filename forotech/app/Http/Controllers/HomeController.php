@@ -6,15 +6,15 @@ use Illuminate\Http\Request;
 
 class HomeController extends Controller
 {
+   /* 
     public function __construct()
-    {
-        /**
-        * Create a new controller instance.
-        *
-        * @return void
-        */
+    {  
         $this->middleware('auth');
     }
+    */
+    
+    
+
     public function index()
     {
         /**
