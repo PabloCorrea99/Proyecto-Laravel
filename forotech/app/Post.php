@@ -54,4 +54,12 @@ class Post extends Model
         return $this->attributes['created_at'];
     }
 
+    public function comments(){
+        return $this->hasMany(Comment::class);
+    }
+
+    public function user(){
+        return $this->hasOne(Comment::class);
+    }
+
 }

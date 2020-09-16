@@ -34,4 +34,9 @@ class Comment extends Model
         return $this->attributes['created_at'];
     }
 
+    public function user(){
+        return $this->hasOne(User::class);
+    }
+
+
 }

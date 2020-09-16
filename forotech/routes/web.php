@@ -25,7 +25,9 @@ Route::post('/comment/save', 'CommentController@save')->name("comment.save");
 
 Route::post('/comment/delete', 'CommentController@delete')->name("comment.delete");
 
-Route::get('/post/show', 'PostController@show')->name("post.show");
+Route::get('/post/show/{id}', 'PostController@show')->name("post.show");
+
+Route::get('/post/show', 'PostController@list')->name("post.list");
 
 Route::get('/post/create', 'PostController@create')->name("post.create");
 
@@ -33,7 +35,7 @@ Route::post('/post/save', 'PostController@save')->name("post.save");
 
 Route::post('/post/delete', 'PostController@delete')->name("post.delete");
 
-Route::get('/product/mostrar/{id}', 'ProductController@show')->name("product.show");
+Route::get('/product/show/{id}', 'ProductController@show')->name("product.show");
 
 Route::get('/product/show', 'ProductController@list')->name("product.list");
 
