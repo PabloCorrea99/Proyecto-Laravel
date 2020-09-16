@@ -20,9 +20,9 @@
 
                 <form method="POST" action="{{ route('post.save') }}">
                     @csrf
-                    <input type="text" placeholder="Escribe el titulo" name="name" value="{{ old('title') }}" />
-                    <input type="text" placeholder="Contenido de la Publicacion" name="name" value="{{ old('body') }}" />
-                    <input type="text" placeholder="Link de alguna imagen que quieras compartir" name="link" value="{{ old('link') }}" />
+                    <input type="text" placeholder="Escribe el titulo" name="title" value="{{ old('title') }}" />
+                    <input type="text" placeholder="Contenido de la Publicacion" name="body" value="{{ old('body') }}" />
+                    <input type="text" placeholder="Link de alguna imagen que quieras compartir" name="image" value="{{ old('image') }}" />
                     <input type="submit" value="Send" />
                 </form>
 

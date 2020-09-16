@@ -1,7 +1,5 @@
 @extends('layouts.master')
 
-
-
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -11,7 +9,7 @@
 
                 <div class="card-body">
                 @foreach($data["posts"] as $post)
-                    <li>{{ $post->getId() }} - <a href="show/{{$post->getId()}}">{{ $product->getTitle() }}</a></li>
+                    <li>{{ $post->getId() }} - <a href="{{$post->getId()}}">{{ $post->getTitle() }}</a></li>
                 @endforeach
                 </div>
             </div>

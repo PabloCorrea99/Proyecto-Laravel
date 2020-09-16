@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     
-    protected $fillable = ['title','body','image'];
+    protected $fillable = ['user_id','title','body','image'];
 
     public function getId()
     {
@@ -58,8 +58,12 @@ class Post extends Model
         return $this->hasMany(Comment::class);
     }
 
+    public function ratings(){
+        return $this->hasMany(Rating::class);
+    }
+
     public function user(){
-        return $this->hasOne(Comment::class);
+        return $this->belongsTo(User::class);
     }
 
 }

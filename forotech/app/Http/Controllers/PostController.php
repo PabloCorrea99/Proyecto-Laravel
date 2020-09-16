@@ -5,9 +5,19 @@ namespace App\Http\Controllers;
 use App\Post;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class PostController extends Controller
 {
+    public function __construct()
+    {
+        /**
+        * Create a new controller instance.
+        *
+        * @return void
+        */
+        $this->middleware('auth');
+    }
     public function show($id)
     {
         $data = []; //to be sent to the view
@@ -41,7 +51,15 @@ class PostController extends Controller
             "body" => "required",
             "title" => "required"
         ]);
-        Post::create($request->only(["post"]));
+        
+        $user_id = Auth::id();
+        Post::create([
+            'user_id' => $user_id,
+            'title' => request('title'),
+            'body' => request('body'),
+            'image'=>request('image')
+            
+        ]);
 
         return back()->with('success','Post creado satisfactoriamente');
     }
@@ -49,7 +67,7 @@ class PostController extends Controller
     public function delete(Request $request)
     {
         Post::destroy($request->only(["postId"]));
-        return redirect()->action("PostController@show")->with('status', 'Post eliminado');
+        return redirect()->action("PostController@list")->with('status', 'Post eliminado');
     }
 
 }
