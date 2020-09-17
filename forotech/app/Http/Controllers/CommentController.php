@@ -40,5 +40,4 @@ class CommentController extends Controller
         Comment::destroy($request->only(["commentId"]));
         return redirect()->action("CommentController@show")->with('status', 'Comentario eliminado');
     }
-
 }

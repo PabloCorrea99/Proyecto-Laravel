@@ -33,6 +33,5 @@ Route::post('/product/save', 'ProductController@save')->name("product.save");
 Route::post('/product/delete', 'ProductController@deleteProduct')->name("product.delete");
 
 Route::post('/rating/like', 'RatingController@like')->name("rating.like");
-Route::post('/rating/dislike', 'RatingController@dislike')->name("rating.dislike");
 
 Auth::routes();

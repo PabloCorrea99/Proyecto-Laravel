@@ -15,26 +15,22 @@ class RatingController extends Controller{
             "type" => "required"
         ]);
         $user_id = Auth::id();
-        Rating::create([
-            'user_id' => $user_id,
-            'post_id' => request('postId'),
-            'like' => request('type'),
-            'dislike' => 0
-        ]);
-        return back()->with('success','Te gusta este Post');
-    }
-
-    public function disLike(Request $request){
-        $request->validate([
-            "type" => "required"
-        ]);
-        $user_id = Auth::id();
-        Rating::create([
-            'user_id' => $user_id,
-            'post_id' => request('postId'),
-            'dislike' => request('type'),
-            'like' => 0
-        ]);
-        return back()->with('success','No te gusta este Post');
+        $post_id = request('postId');
+        $type = request('type');
+        if($type==1){
+            Rating::updateOrCreate(
+                ['post_id' => $post_id, 'user_id' => $user_id],
+                ['like' => 1, 'dislike'=> 0]
+            );
+            return back()->with('success','Te gusta este Post');
+        } else {
+            Rating::updateOrCreate(
+                ['post_id' => $post_id, 'user_id' => $user_id],
+                ['like' => 0, 'dislike'=> 1]
+            );
+            return back()->with('success','No te gusta este Post');
+        }
+    
+        
     }
 }

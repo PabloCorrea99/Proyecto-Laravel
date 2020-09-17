@@ -63,8 +63,8 @@
 
           <li class="active"><a href="index.html">Inicio</a></li>
           <li><a href="#about">Sobre Nosotros</a></li>
-          <li><a href="#services">Foro</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="{{route ('post.list')}}">Foro</a></li>
+          <li><a href="#team">Equipo</a></li>
           <li class="drop-down"><a href="">Account</a>
             <ul>
               @guest
