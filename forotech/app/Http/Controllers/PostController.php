@@ -3,9 +3,12 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use App\Comment;
+use App\Rating;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+
 
 class PostController extends Controller
 {
@@ -22,9 +25,19 @@ class PostController extends Controller
     {
         $data = []; //to be sent to the view
         $post = Post::findOrFail($id);
-
+        $comments = Comment::where('post_id', $id)->get();
+        $likes = Rating::where('post_id',$id)
+                        ->where("like", 1)
+                        ->count();
+        $dislikes = Rating::where('post_id',$id)
+                        ->where("dislike", 1)
+                        ->count();
         $data["title"] = $post->getTitle();
         $data["post"] = $post;
+        $data["comments"] = $comments;
+        $data["likes"] = $likes;
+        $data["dislikes"] = $dislikes;
+
         return view('post.show')->with("data",$data);
     }
 

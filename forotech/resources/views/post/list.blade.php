@@ -9,7 +9,7 @@
 
                 <div class="card-body">
                 @foreach($data["posts"] as $post)
-                    <li>{{ $post->getId() }} - <a href="{{$post->getId()}}">{{ $post->getTitle() }}</a></li>
+                    <li>{{ $post->getId() }} - <a href="show/{{$post->getId()}}">{{ $post->getTitle() }}</a></li>
                 @endforeach
                 </div>
             </div>

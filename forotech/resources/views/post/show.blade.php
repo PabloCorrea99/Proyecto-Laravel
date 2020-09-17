@@ -31,12 +31,19 @@
                         <input type="hidden" name="postId" value='{{$data["post"]->getId()}}'/>
                         <button type="submit" class="btn btn-info">Me gusta</button>
                     </form>
-                    <form method="POST" action="{{route('rating.dislike')}}">
+                    <h1>{{ $data["likes"] }}</h1>
+                    <form method="POST" action="{{route('rating.like')}}">
                         @csrf
-                        <input type="hidden" name="type" value='1'/>
+                        <input type="hidden" name="type" value='0'/>
                         <input type="hidden" name="postId" value='{{$data["post"]->getId()}}'/>
                         <button type="submit" class="btn btn-danger">No me gusta</button>
                     </form>
+                    <h1>{{ $data["dislikes"] }}</h1>
+                    <ul id="comments">
+                        @foreach($data["comments"] as $comment)
+                            <li>{{ $comment->getComment() }}</li>
+                        @endforeach
+                     </ul>
                 </div>
             </div>
         </div>
