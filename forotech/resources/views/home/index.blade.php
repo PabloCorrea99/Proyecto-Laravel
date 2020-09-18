@@ -10,7 +10,7 @@
 
       <div class="col-lg-5 col-md-6">
         <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-          <img src="assets/img/about-img.jpg" alt="">
+          <img src="assets/img/unnamed (1).png" alt="">
         </div>
       </div>
 
@@ -61,30 +61,30 @@
       <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
         <div class="box">
           <div class="icon" style="background: #e6fdfc;"><i class="ion-ios-paper-outline" style="color: #3fcdc7;"></i></div>
-          <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-          <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+          <h4 class="title"><a href="">Algoritmos</a></h4>
+          <p class="description">Todo lo que necesitas en temas de algoritmos con los que podras solucionar las problemticas del mundo real.</p>
         </div>
       </div>
       <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
         <div class="box">
           <div class="icon" style="background: #eafde7;"><i class="ion-ios-speedometer-outline" style="color:#41cf2e;"></i></div>
-          <h4 class="title"><a href="">Magni Dolores</a></h4>
-          <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+          <h4 class="title"><a href="">Computadores</a></h4>
+          <p class="description">Este vasto que va desde los gamers mas casuales hasta los entuciastas que crean PCs de máximo rendimiento.</p>
         </div>
       </div>
 
-      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200"">
+      <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
     <div class=" box">
         <div class="icon" style="background: #e1eeff;"><i class="ion-ios-world-outline" style="color: #2282ff;"></i></div>
-        <h4 class="title"><a href="">Nemo Enim</a></h4>
-        <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+        <h4 class="title"><a href="">Consolas</a></h4>
+        <p class="description">Lo que todo el mundo conoce y todo el mundo juega, una rivalidad eterna por áca.</p>
       </div>
     </div>
     <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
       <div class="box">
         <div class="icon" style="background: #ecebff;"><i class="ion-ios-clock-outline" style="color: #8660fe;"></i></div>
-        <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-        <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+        <h4 class="title"><a href="">Actualidad</a></h4>
+        <p class="description">Todas las noticias en general que tengan algún componente tecnologico.</p>
       </div>
     </div>
   </div>
@@ -102,7 +102,7 @@
         <p class="cta-text"> Para disfrutar al maximo de nuestra página, es vital que tengas una cuenta. Por eso, te invitamos a crearla hoy mismo, ES MUY FACIL!</p>
       </div>
       <div class="col-lg-3 cta-btn-container text-center">
-        <a class="cta-btn align-middle" href="#">Call To Action</a>
+        <a class="cta-btn align-middle" href="{{ route('register') }}">CREAR CUENTA!</a>
       </div>
     </div>
 
@@ -120,12 +120,12 @@
         <img src="assets/img/features-1.svg" class="img-fluid" alt="">
       </div>
       <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0" data-aos="fade-left" data-aos-delay="150">
-        <h4>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h4>
+        <h4>La tecnología es algo que ya no se puede ignorar</h4>
         <p>
-          Ipsum in aspernatur ut possimus sint. Quia omnis est occaecati possimus ea. Quas molestiae perspiciatis occaecati qui rerum. Deleniti quod porro sed quisquam saepe. Numquam mollitia recusandae non ad at et a.
+          Vivimos en un mundo en el que ya todo esta conectado, todo es digital e inteligente. Si queremos hacer parte de este mundo tenemos que conocer sobre lo que pasa todos los días, porque la tecnología avanza a toda velocidad.
         </p>
         <p>
-          Ad vitae recusandae odit possimus. Quaerat cum ipsum corrupti. Odit qui asperiores ea corporis deserunt veritatis quidem expedita perferendis. Qui rerum eligendi ex doloribus quia sit. Porro rerum eum eum.
+          Cada día sale algo nuevo que reemplaza a lo que salió ayer, tenemos que seguir ese ritmo o seremos obsoletos.
         </p>
       </div>
     </div>
@@ -136,15 +136,12 @@
       </div>
 
       <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="150">
-        <h4>Neque saepe temporibus repellat ea ipsum et. Id vel et quia tempora facere reprehenderit.</h4>
+        <h4>Aprovecha el mundo digital y todo lo que ofrece</h4>
         <p>
-          Delectus alias ut incidunt delectus nam placeat in consequatur. Sed cupiditate quia ea quis. Voluptas nemo qui aut distinctio. Cumque fugit earum est quam officiis numquam. Ducimus corporis autem at blanditiis beatae incidunt sunt.
+          ¿Qué seriamos sin celulares, videojuegos, multimedia...? Exacto, nada. Hoy en día tenemos infinidad de componentes tecnologicos que hacen mucho mas facil nuestra vida.
         </p>
         <p>
-          Voluptas saepe natus quidem blanditiis. Non sunt impedit voluptas mollitia beatae. Qui esse molestias. Laudantium libero nisi vitae debitis. Dolorem cupiditate est perferendis iusto.
-        </p>
-        <p>
-          Eum quia in. Magni quas ipsum a. Quis ex voluptatem inventore sint quia modi. Numquam est aut fuga mollitia exercitationem nam accusantium provident quia.
+          Por eso, no debemos de caer en el error de decir que la tecnología es mala, ella es una herramienta, nosotros le damos el uso. Entonces te invitamos, usa la tecnología, pero siempre de una buena manera.
         </p>
       </div>
 
@@ -320,7 +317,7 @@
 
       <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="100">
         <div class="member">
-          <img src="assets/img/team-1.jpg" class="img-fluid" alt="">
+          <img src="assets/img/team-1.jpeg" class="img-fluid" alt="">
           <div class="member-info">
             <div class="member-info-content">
               <h4>Pablo Correa</h4>
@@ -338,7 +335,7 @@
 
       <div class="col-lg-4 col-md-12" data-aos="fade-up" data-aos-delay="200">
         <div class="member">
-          <img src="assets/img/team-2.jpg" class="img-fluid" alt="">
+          <img src="assets/img/team-2.jpeg" class="img-fluid" alt="">
           <div class="member-info">
             <div class="member-info-content">
               <h4>Miguel Restrepo</h4>
@@ -392,8 +389,6 @@
       <img src="assets/img/clients/client-4.png" alt="">
       <img src="assets/img/clients/client-5.png" alt="">
       <img src="assets/img/clients/client-6.png" alt="">
-      <img src="assets/img/clients/client-7.png" alt="">
-      <img src="assets/img/clients/client-8.png" alt="">
     </div>
 
   </div>

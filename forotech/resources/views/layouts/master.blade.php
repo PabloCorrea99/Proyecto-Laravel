@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/6.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -43,9 +43,9 @@
   <div id="topbar" class="d-none d-lg-flex align-items-end fixed-top ">
     <div class="container d-flex justify-content-end">
       <div class="social-links">
-        <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
-        <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
+        <a href="https://twitter.com/PabloTechsolver" class="twitter"><i class="fa fa-twitter"></i></a>
+        <a href="https://www.youtube.com/user/CSIclan" class="linkedin"><i class="fa fa-youtube"></i></a>
+        <a href="https://www.instagram.com/pablotechsolver/" class="instagram"><i class="fa fa-instagram"></i></a>
       </div>
     </div>
   </div>
@@ -54,18 +54,18 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="index.html">Foro Techsolver</a></h1>
+      <h1 class="logo mr-auto"><a href="{{route ('home.home')}}">Foro Techsolver</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="main-nav d-none d-lg-block">
         <ul>
 
-          <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="#about">Sobre Nosotros</a></li>
+          <li class="active"><a href="{{route ('home.home')}}">Inicio</a></li>
           <li><a href="{{route ('post.list')}}">Foro</a></li>
+          <li><a href="{{route ('product.list')}}">Productos</a></li>
           <li><a href="#team">Equipo</a></li>
-          <li class="drop-down"><a href="">Account</a>
+          <li class="drop-down"><a href="">Cuenta</a>
             <ul>
               @guest
               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ route('login') }}">{{ __('Login') }}</a></li>
@@ -92,21 +92,12 @@
       <div class="container">
 
         <ol>
-          <li><a href="index.html">Home</a></li>
-          <li>Inner Page</li>
         </ol>
-        <h2>Inner Page</h2>
 
-      </div>
-    </section><!-- End Breadcrumbs -->
-
-    <section class="inner-page pt-4">
-      <div class="container">
-        <p>
-          Example inner page template
-        </p>
       </div>
     </section>
+    <!-- End Breadcrumbs -->
+
     @yield('content')
   </main><!-- End #main -->
 
@@ -133,11 +124,10 @@
                 <div class="footer-links">
                   <h4>Links Utiles</h4>
                   <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#about">About us</a></li>
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">Terms of service</a></li>
-                    <li><a href="#">Privacy policy</a></li>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#about">Sobre Nosotros</a></li>
+                    <li><a href="{{route ('post.list')}}">Foro</a></li>
+                    <li><a href="#team">Equipo</a></li>
                   </ul>
                 </div>
 

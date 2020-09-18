@@ -3,27 +3,35 @@
 @section("title", $data["title"])
 
 @section('content')
-<div class="container">
+<div class="container" style="margin-top: 20px; margin-bottom:30px">
     <div class="row justify-content-center">
         <div class="col-md-8">
         @include('util.message')
-            <div class="card">
-                <div class="card-header">Crear Publicación</div>
-                <div class="card-body">
-                @if($errors->any())
+            <h1>Crear Publicación</h1>
+            @if($errors->any())
                 <ul id="errors">
                     @foreach($errors->all() as $error)
                         <li>{{ $error }}</li>
                     @endforeach
                 </ul>
-                @endif
-
-                <form method="POST" action="{{ route('post.save') }}">
+            @endif
+            <div class="card">
+                <div class="card-body">
+                <form method="POST" id="postform" action="{{ route('post.save') }}">
                     @csrf
+                    <label for="title">Titulo de la Publicación: </label>
+                    <br>
                     <input type="text" placeholder="Escribe el titulo" name="title" value="{{ old('title') }}" />
-                    <input type="text" placeholder="Contenido de la Publicacion" name="body" value="{{ old('body') }}" />
-                    <input type="text" placeholder="Link de alguna imagen que quieras compartir" name="image" value="{{ old('image') }}" />
-                    <input type="submit" value="Send" />
+                    <hr>
+                    <label for="body">Escribe tu Publicación: </label>
+                    <br>
+                    <textarea style="height:400px; width:95%;" name="body"  value="{{ old('body') }}" form="postform"></textarea>
+                    <hr>
+                    <label for="image">Agrega alguna imagen: </label>
+                    <br>
+                    <input type="text" placeholder="Link imagen" name="image" value="{{ old('image') }}" />
+                    <hr>
+                    <button class="btn btn-info" type="submit" value="Send"> CREAR </button>
                 </form>
 
                 </div>

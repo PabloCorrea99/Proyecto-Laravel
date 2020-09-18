@@ -3,19 +3,21 @@
 
 
 @section('content')
-<div class="container">
-    <div class="row justify-content-center">
-        <div class="col-md-8">
+<div class="container" style="margin-top: 20px; margin-bottom:30px">
+    <h1>PRODUCTOS:</h1>
+    <hr>
+    <div class="row">
+        @foreach($data["products"] as $product)
+        <div class="col-md-4">
             <div class="card">
-                <div class="card-header justify-content-center">Productos:</div>
-
                 <div class="card-body">
-                @foreach($data["products"] as $product)
-                    <li>{{ $product->getId() }} - <a href="mostrar/{{$product->getId()}}">{{ $product->getName() }}</a></li>
-                @endforeach
+                    <h4>{{ $product->getName() }}</h4>
+                    <h6>Precio: ${{$product->getPrice()}}</h6>
+                    <h6>Link de Compra: <a href="{{$product->getLink()}}">{{$product->getLink()}}</a></h6>
                 </div>
             </div>
         </div>
+        @endforeach
     </div>
 </div>
 @endsection
