@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Post;
 use App\Comment;
 use App\Rating;
+use App\User;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -32,6 +33,9 @@ class PostController extends Controller
         $dislikes = Rating::where('post_id',$id)
                         ->where("dislike", 1)
                         ->count();
+        $post_name_id = $post["user_id"];
+        $post_user = User::findOrFail($post_name_id);
+        $data["userpost"] = $post_user;
         $data["title"] = $post->getTitle();
         $data["post"] = $post;
         $data["comments"] = $comments;

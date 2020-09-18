@@ -8,7 +8,7 @@
             <div class="container" style="margin-top: 30px;">
                 <header class="section-header">
                     <h3>{{ $data["post"]["title"] }}</h3> 
-                     <p>Autor:</p>  
+                     <p>Autor: {{ $data["userpost"]["name"]}}</p>  
                 </header>
                 <div class="container">
                     <img style="max-height:500px;max-width:800px;display: block;margin-left: auto;margin-right: auto;" src="{{ $data['post']['image'] }}" alt="">
