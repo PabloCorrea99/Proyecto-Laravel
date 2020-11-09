@@ -16,14 +16,14 @@
 
       <div class="col-lg-7 col-md-6">
         <div class="about-content" data-aos="fade-left" data-aos-delay="100">
-          <h2>Sobre Nosotros</h2>
-          <h3>¿De donde sale?</h3>
-          <p>El Foro Techsolver es un foro hispanohablante enfocado totalmente a la tecnología (programación, videojuegos, hardware…), en donde las personas podrán compartir dudas, noticias, conocimiento u opinión, sobre todo lo relacionado a tecnología. </p>
-          <p>Con el foro se pretende aportar al crecimiento de la cultura tecnológica en toda Latinoamérica, puesto que se considera que aun es bastante pobre a comparación con el resto del mundo.</p>
+          <h2>@lang('messages.FooterAbout')</h2>
+          <h3>@lang('messages.AbouQuestion')</h3>
+          <p>@lang('messages.AboutTextOne')</p>
+          <p>@lang('messages.AboutTextTwo')</p>
           <ul>
-            <li><i class="ion-android-checkmark-circle"></i> Iniciativa Colombiana.</li>
-            <li><i class="ion-android-checkmark-circle"></i> Queremos que cada día crezca mas la cultura tecnologica.</li>
-            <li><i class="ion-android-checkmark-circle"></i> Vamos a ser un referente en el mundo tecnologico hispanohablante.</li>
+            <li><i class="ion-android-checkmark-circle"></i>@lang('messages.AboutListOne')</li>
+            <li><i class="ion-android-checkmark-circle"></i>@lang('messages.AboutListTwo')</li>
+            <li><i class="ion-android-checkmark-circle"></i>@lang('messages.AboutListThree')</li>
           </ul>
         </div>
       </div>
