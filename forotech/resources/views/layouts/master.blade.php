@@ -54,18 +54,18 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo mr-auto"><a href="{{route ('home.home')}}">Foro Techsolver</a></h1>
+      <h1 class="logo mr-auto"><a href="{{route ('home.home')}}">@lang('messages.Title')</a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
       <nav class="main-nav d-none d-lg-block">
         <ul>
 
-          <li class="active"><a href="{{route ('home.home')}}">Inicio</a></li>
-          <li><a href="{{route ('post.list')}}">Foro</a></li>
-          <li><a href="{{route ('product.list')}}">Productos</a></li>
-          <li><a href="#team">Equipo</a></li>
-          <li class="drop-down"><a href="">Cuenta</a>
+          <li class="active"><a href="{{route ('home.home')}}">@lang('messages.Home')</a></li>
+          <li><a href="{{route ('post.list')}}">@lang('messages.Forum')</a></li>
+          <li><a href="{{route ('product.list')}}">@lang('messages.Products')</a></li>
+          <li><a href="#team">@lang('messages.Team')</a></li>
+          <li class="drop-down"><a href="">@lang('messages.Account')</a>
             <ul>
               @guest
               <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{ route('login') }}">{{ __('Login') }}</a></li>
@@ -115,24 +115,24 @@
               <div class="col-sm-6">
 
                 <div class="footer-info">
-                  <h3>Foro Techsolver</h3>
-                  <p>Esta página esta dirigida a todas las personas interesadas tanto en conocer, como en opinar sobre temas de tecnología (Programación, Videojuegos, Hardware ...). Te invitamos a que disfrutes bastante y respetes la comunidad.</p>
+                  <h3>@lang('messages.FooterInfo')</h3>
+                  <p>@lang('messages.FooterText')</p>
                 </div>
               </div>
 
               <div class="col-sm-6">
                 <div class="footer-links">
-                  <h4>Links Utiles</h4>
+                  <h4>@lang('messages.FooterLinks')</h4>
                   <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#about">Sobre Nosotros</a></li>
-                    <li><a href="{{route ('post.list')}}">Foro</a></li>
-                    <li><a href="#team">Equipo</a></li>
+                    <li><a href="#">@lang('messages.Home')</a></li>
+                    <li><a href="#about">@lang('messages.FooterAbout')</a></li>
+                    <li><a href="{{route ('post.list')}}">@lang('messages.Forum')</a></li>
+                    <li><a href="#team">@lang('messages.Team')</a></li>
                   </ul>
                 </div>
 
                 <div class="footer-links">
-                  <h4>Contactanos</h4>
+                  <h4>@lang('messages.Contact')</h4>
                   <p>
                     <strong>Email:</strong> correa.pablo1999@gmail.com<br>
                   </p>

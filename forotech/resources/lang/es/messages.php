@@ -134,11 +134,5 @@ return [
     "ShowProductThree"=>"Link de Compra:",
     "ShowProductButton"=>"Eliminar Producto",
 
-
-
-    
-
-    
-
-
 ]
+;

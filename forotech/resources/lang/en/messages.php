@@ -133,3 +133,5 @@ return [
     "ShowProductTwo"=>"Product price:",
     "ShowProductThree"=>"Purchase link:",
     "ShowProductButton"=>"Delete Product",
+]
+;
