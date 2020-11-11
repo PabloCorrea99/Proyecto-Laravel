@@ -63,7 +63,16 @@
 
           <li class="active"><a href="{{route ('home.home')}}">@lang('messages.Home')</a></li>
           <li><a href="{{route ('post.list')}}">@lang('messages.Forum')</a></li>
-          <li><a href="{{route ('product.list')}}">@lang('messages.Products')</a></li>
+          <li class="drop-down"><a>@lang('messages.Products')</a> 
+            <ul>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{route ('product.list')}}">@lang('messages.ProductsOwn')</a>
+              </li>
+              <li class="nav-item mx-0 mx-lg-1">
+                <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="{{route ('food.food')}}">@lang('messages.ProductsAlly')</a>
+              </li>  
+            </ul> 
+          </li>
           <li><a href="#team">@lang('messages.Team')</a></li>
           <li class="drop-down"><a href="">@lang('messages.Account')</a>
             <ul>
