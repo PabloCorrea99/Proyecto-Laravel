@@ -2,8 +2,6 @@
 ## Integrantes:
 - Pablo Correa Morales.
 - Miguel Restrepo Reyes.
-- Santiago Rodriguez.
-
 ## Instalación y ejecución
 
 1. Clonar el repositorio.
