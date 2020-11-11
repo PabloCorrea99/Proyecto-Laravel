@@ -17,7 +17,7 @@
       <div class="col-lg-7 col-md-6">
         <div class="about-content" data-aos="fade-left" data-aos-delay="100">
           <h2>@lang('messages.FooterAbout')</h2>
-          <h3>@lang('messages.AbouQuestion')</h3>
+          <h3>@lang('messages.AboutQuestion')</h3>
           <p>@lang('messages.AboutTextOne')</p>
           <p>@lang('messages.AboutTextTwo')</p>
           <ul>
@@ -37,9 +37,6 @@
   <div class="container" data-aos="fade-up">
 
     <header class="section-header">
-      <h2>{{$data["_timestamp"]["fecha"]}}</h2>
-      <h2>{{$data["USDCOL"]["setfxsell"]}}</h2>
-      <h2>{{$data["USDCOL"]["setfxbuy"]}}</h2>
       <h3>@lang('messages.SectionTitle')</h3>
       <p>@lang('messages.SectionSubtitle')</p>
     </header>

@@ -23,8 +23,8 @@ class HomeController extends Controller
         * @return \Illuminate\Contracts\Support\Renderable
         */
         $data = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
-        $items = json_decode($data, true);
-        return view('home.index')->with("data",$items);
+        $items = var_dump(json_decode($data, true));
+        return view('home.index')->with("data",$items["USD"]);
     }
     
     public function home()

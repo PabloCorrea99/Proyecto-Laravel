@@ -23,8 +23,13 @@ return [
     "FooterContact"=>"Contact us",
 
     //INDEX.blade
+    //Dollar Section
+    "DollarTime"=>"Last Update: ",
+    "DollarSell"=>"Selling Price: ",
+    "DollarBuy"=>"Buying Price: ",
+    
     //About Section
-    "AbouQuestion"=>"Where does it come from?",
+    "AboutQuestion"=>"Where does it come from?",
     "AboutTextOne"=>"The Techsolver Forum is a Spanish-speaking forum totally focused on technology (programming, videogames, hardware...), where people can share doubts, news, knowledge or opinion, about everything related to technology.",
     "AboutTextTwo"=>"The forum is intended to contribute to the growth of technological culture throughout Latin America, since it is still considered quite poor compared to the rest of the world.",
     "AboutListOne"=>"Colombian initiative.",

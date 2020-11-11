@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', 'HomeController@index')->name("home.index");
-Route::get('/lang/{locale}', 'App\Http\Controllers\HomeController@changeLang')->name("home.lang");
+Route::get('/lang/{locale}', 'HomeController@changeLang')->name("home.lang");
 Route::get('/home', 'HomeController@home')->name("home.home");
 
 Route::get('/comment/show', 'CommentController@show')->name("comment.show");

@@ -23,8 +23,13 @@ return [
     "FooterContact"=>"Contactanos",
 
     //INDEX.blade
+    //Dollar Section
+    "DollarTime"=>"Ultima Actualización: ",
+    "DollarSell"=>"Precio de Venta: ",
+    "DollarBuy"=>"Precio de Compra: ",
+
     //About Section
-    "AbouQuestion"=>"¿De donde sale?",
+    "AboutQuestion"=>"¿De donde sale?",
     "AboutTextOne"=>"El Foro Techsolver es un foro hispanohablante enfocado totalmente a la tecnología (programación, videojuegos, hardware…), en donde las personas podrán compartir dudas, noticias, conocimiento u opinión, sobre todo lo relacionado a tecnología. ",
     "AboutTextTwo"=>"Con el foro se pretende aportar al crecimiento de la cultura tecnológica en toda Latinoamérica, puesto que se considera que aun es bastante pobre a comparación con el resto del mundo.",
     "AboutListOne"=>"Iniciativa Colombiana.",
