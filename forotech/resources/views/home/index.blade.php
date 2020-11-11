@@ -37,6 +37,9 @@
   <div class="container" data-aos="fade-up">
 
     <header class="section-header">
+      <h2>{{$data["_timestamp"]["fecha"]}}</h2>
+      <h2>{{$data["USDCOL"]["setfxsell"]}}</h2>
+      <h2>{{$data["USDCOL"]["setfxbuy"]}}</h2>
       <h3>@lang('messages.SectionTitle')</h3>
       <p>@lang('messages.SectionSubtitle')</p>
     </header>
