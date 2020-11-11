@@ -33,6 +33,8 @@ Route::get('/product/create', 'ProductController@create')->name("product.create"
 Route::post('/product/save', 'ProductController@save')->name("product.save");
 Route::post('/product/delete', 'ProductController@deleteProduct')->name("product.delete");
 
+Route::get('/food', 'FoodController@showProducts')->name("food.food");
+
 Route::post('/rating/like', 'RatingController@like')->name("rating.like");
 
 Auth::routes();

@@ -6,6 +6,8 @@ return [
     "Home"=>"Home",
     "Forum"=>"Forum",
     "Products"=>"Products",
+    "ProductsOwn"=>"Tech Products",
+    "ProductsAlly"=>"Allies Products",
     "Team"=>"Team",
     "Account"=>"Account",
     "Login"=>"Login",
@@ -133,3 +135,5 @@ return [
     "ShowProductTwo"=>"Product price:",
     "ShowProductThree"=>"Purchase link:",
     "ShowProductButton"=>"Delete Product",
+]
+;

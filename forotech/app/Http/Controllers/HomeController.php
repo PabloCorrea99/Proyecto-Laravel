@@ -22,13 +22,16 @@ class HomeController extends Controller
         *
         * @return \Illuminate\Contracts\Support\Renderable
         */
-        return view('home.index');
+        $data = file_get_contents("https://s3.amazonaws.com/dolartoday/data.json");
+        $items = json_decode($data, true);
+        return view('home.index')->with("data",$items);
     }
     
     public function home()
     {
         return redirect()->action('HomeController@index');
     }
+
 
     public function changeLang($locale)
     {

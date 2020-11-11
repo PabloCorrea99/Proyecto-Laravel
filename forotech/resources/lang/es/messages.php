@@ -6,6 +6,8 @@ return [
     "Home"=>"Incio",
     "Forum"=>"Foro",
     "Products"=>"Productos",
+    "ProductsOwn"=>"Productos Tech",
+    "ProductsAlly"=>"Productos Aliados",
     "Team"=>"Equipo",
     "Account"=>"Cuenta",
     "Login"=>"Iniciar Sesion",
@@ -134,11 +136,5 @@ return [
     "ShowProductThree"=>"Link de Compra:",
     "ShowProductButton"=>"Eliminar Producto",
 
-
-
-    
-
-    
-
-
 ]
+;
